@@ -16,9 +16,13 @@
 <remote name="device"
         fetch="https://github.com/NusantaraROM-Devices/"
         revision="10" />
+        
+<remote name="XD"
+        fetch="https://github.com/Nub-XD/"
+        revision="refs/heads/10" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="nad" >
+  <project path="build/make" name="android_build" remote="XD" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
