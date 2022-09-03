@@ -82,7 +82,7 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="XD" />
 
   <!-- Device -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
