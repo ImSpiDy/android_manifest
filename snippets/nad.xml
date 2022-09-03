@@ -42,7 +42,7 @@
   </project>
 
   <project path="art" name="android_art" remote="nad" />
-  <project path="bionic" name="android_bionic" remote="nad" />
+  <project path="bionic" name="android_bionic" remote="XD" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
   <project path="development" name="android_development" remote="nad" />
   <project path="libcore" name="android_libcore" remote="nad" />
