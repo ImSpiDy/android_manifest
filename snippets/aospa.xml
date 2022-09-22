@@ -5,8 +5,12 @@
            fetch="https://github.com/AOSPA"
            revision="quartz" />
 
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="aospa" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="aospa" revision="master" clone-depth="1" />
+  <remote  name="rtr"
+           fetch="https://github.com/reaPeR1010"
+           revision="gcc-9" />
+
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc" remote="rtr" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="arm32-gcc" remote="rtr" clone-depth="1" />
   <project path="external/libpng" name="android_external_libpng" remote="aospa"  />
 
 </manifest>
