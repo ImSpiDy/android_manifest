@@ -6,8 +6,8 @@
           revision="refs/heads/q" />
 
   <remote name="caf" 
-          fetch="http://source.codeaurora.org/quic/la" 
-          review="codeaurora.org" />
+          fetch="https://git.codelinaro.org/clo/la" 
+          review="codelinaro.org" />
           
   <remote name="lineage" 
           fetch="https://github.com/LineageOS" 
