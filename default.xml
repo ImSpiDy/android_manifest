@@ -24,7 +24,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.2.r2-06800-sdm660.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.11.2.1.r1-03300-sdm660.0" remote="caf" sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
   <project name="device/amlogic/yukawa" />
