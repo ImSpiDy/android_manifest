@@ -40,6 +40,10 @@
            fetch="https://github.com/ResurrectionRemix-Devices"
            revision="Q" />
 
+  <remote  name="XD"
+           fetch="https://github.com/Nub-XD/"
+           revision="refs/heads/Q" />
+
   <default revision="refs/heads/lineage-17.1"
            remote="github"
            sync-c="true"
