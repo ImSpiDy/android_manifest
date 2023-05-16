@@ -213,8 +213,10 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nad" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nad" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
-  <project path="vendor/pixelgapps" name="Genkzsz11/vendor_pixelgapps" remote="gitlab" revision="10" clone-depth="1" />
   <project path="vendor/themes" name="android_vendor_themes" remote="XD" />
   <project path="vendor/nusantara" name="android_vendor" remote="XD" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
+
+  <!-- MindTheGapps -->
+  <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="qoppa" clone-depth="1" />
 </manifest>
