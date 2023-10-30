@@ -84,7 +84,7 @@
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="XD" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="XD" />
   <project path="frameworks/base" name="android_frameworks_base" remote="XD" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="nad" />
 
