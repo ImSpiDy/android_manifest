@@ -48,7 +48,7 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
 
   <!-- External -->
-  <project path="external/aac" name="android_external_aac" remote="nad" />
+  <project path="external/aac" name="android_external_aac" remote="XD" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="nad" />
