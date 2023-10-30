@@ -5,6 +5,10 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-17.1" />
 
+  <remote  name="los-rev"
+           fetch="https://github.com/LineageOS-Revived"
+           revision="lineage-17.1" />
+
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
@@ -71,4 +75,8 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
+
+  <!-- LineageOS-Revived -->
+  <project path="tools/apksig" name="android_tools_apksig" remote="los-rev" />
+
 </manifest>
