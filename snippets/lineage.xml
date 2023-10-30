@@ -78,5 +78,6 @@
 
   <!-- LineageOS-Revived -->
   <project path="tools/apksig" name="android_tools_apksig" remote="los-rev" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" remote="los-rev" />
 
 </manifest>
