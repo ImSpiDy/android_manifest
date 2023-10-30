@@ -148,7 +148,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
   <project path="system/extras" name="android_system_extras" remote="nad" />
-  <project path="system/bt" name="android_system_bt" remote="nad" />
+  <project path="system/bt" name="android_system_bt" remote="XD" />
   <project path="system/netd" name="android_system_netd" remote="nad" />
   <project path="system/nfc" name="android_system_nfc" remote="nad" />
   <project path="system/keymaster" name="android_system_keymaster" remote="nad" />
