@@ -218,5 +218,5 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
 
   <!-- MindTheGapps -->
-  <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="qoppa" clone-depth="1" />
+  <project path="vendor/gapps" name="ImSpiDy/vendor_gapps" remote="gitlab" revision="qoppa" clone-depth="1" />
 </manifest>
