@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-10.0.0_r41" />
 
+  <remote  name="XD"
+           fetch="https://github.com/Nub-XD/"
+           revision="refs/heads/lineage-17.1" />
+
   <default revision="refs/heads/lineage-17.1"
            remote="github"
            sync-c="true"
@@ -395,7 +399,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="LineageOS-Revived/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS-Revived/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="Nub-XD/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
